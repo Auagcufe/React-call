@@ -4,6 +4,7 @@ import Gender from './components/test';
 import MyGallery from './components/Gallery';
 import MyComponent from './components/article';
 import Age from './components/ageTest';
+import Stateful from './components/Stateful';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Age age={24} />
         {/* <MyGallery />
         <MyComponent /> */}
+        <Stateful />
       </header>
     </div>
   );
